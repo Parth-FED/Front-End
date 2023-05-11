@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1 align="center">Module (HTML) -1 </h1> 
+   <br>
+   <br>
+   <br>
+   <strong>(1) 
+    Are the HTML tags and elements the same thing? </strong>
+    <br>
+    <p>--> HTML Tags are building blocks of HTML Page. HTML Elements are components that are used in HTML Page.</p>
+    <br>
+    <br>
+    <strong>What are tags and attributes in HTML? </strong>
+    <br>
+    <p>--> An HTML attribute is a piece of markup language used to adjust the behavior or display of an HTML element. 
+        For example, attributes can be used to change the color, size, or functionality of HTML elements.</p>
+        <br>
+        <br>
+        <strong>What are void elements in HTML?        </strong>
+        <br>
+        <p>--> A void element is an element whose content model never allows it to have contents under any circumstances.
+            Void elements can have attributes. The following is a complete list of the void elements in HTML : area , base ,
+            br , col , command , embed , hr , img , input , keygen , link , meta , param , source , track , wbr. </p>
+            <br>
+            <br>
+    <strong>What are HTML Entities? </strong>
+    <br>
+    <p>--> An HTML entity is a piece of text ("string") that begins with an ampersand ( & ) and ends with a semicolon ( ; ).</p>
+    <br>
+    <br>
+    <strong>What are different types of lists in HTML?     </strong>
+    <br>
+    <p><ul> <li> First item </li>
+       <li> Second item </li> 
+       <li> Third item  </li>
+       <li> Fourth item </li> </ul>
+    </p>
+    <br>
+    <br>
+    <strong> What is the ‘class’ attribute in HTML?</strong>
+    <br>
+    <p>--> The class attribute specifies one or more classnames for an element. The class attribute is mostly used to point to a 
+        class in a style sheet.</p>
+     <br>
+     <br>  
+        <strong>What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements? </strong>
+        <br>
+        <p>--> the difference between Class and ID: A Class name can be used by multiple HTML elements, while an ID name must only 
+            be used by one HTML element within the page.</p>
+            <br>
+            <br>
+        <strong>What are the various formatting tags in HTML? </strong>
+        <br>
+        <p>
+        --> <ul>
+           <li> b> - Bold text </li>
+           <li> strong> - Important text </li>
+            <li> i> - Italic text </li>
+            <li> em> - Emphasized text </li>
+            <li> mark> - Marked text </li>
+            <li> small> - Smaller text  </li>
+            <li> del> - Deleted text </li>
+           <li> ins> - Inserted text </li>
+            <li> sub> - Subscript text </li>
+            <li> sup> - Superscript text> </li>
+             </ul>
+        </p>
+        <br>
+        <br>
+        <strong>How is Cell Padding different from Cell Spacing?</strong>
+        <br>
+        <p>--> Cellpadding basically defines the space present between a table cell's border and the content present in it. 
+            Cellspacing basically defines the space present between individual adjacent cells.</p>
+            <br>
+            <br>
+        <strong>How can we club two or more rows or columns into a single row or column in an HTML table?</strong>
+        <br>
+        <p>--> You can merge two or more table cells in a column using the colspan attribute in a <td> HTML tag (table data). 
+            To merge two or more row cells, use the rowspan attribute.</p>
+            <br>
+            <br>
+       <strong>What is the difference between a block-level element and an inline element? </strong>
+            <br>
+            <p>-->By default, inline elements do not force a new line to begin in the document flow. Block elements, on the other hand,
+                typically cause a line break to occur </p>
+                <br>
+                <br>
+        <strong>How to create a Hyperlink in HTML? </strong>
+        <br>
+        <p>--> <ul>
+            <li> Use the <a> element to define a link. </li>
+            <li> Use the href attribute to define the link address. </li>
+            <li> Use the target attribute to define where to open the linked document. </li>
+            <li> Use the <img> element (inside <a> ) to use an image as a link.    </li>
+            </ul>
+        </p>
+        <br>
+        <br>
+        <strong>What is the use of an iframe tag? </strong>
+        <br>
+        <p>--> An inline frame (iframe) is a HTML element that loads another HTML page within the document. It essentially puts
+            another webpage within the parent page.</p>
+            <br>
+            <br>
+        <strong>What is the use of a span tag? Explain with example? </strong>
+        <br>
+        <p>--> The <span> tag is an inline container used to mark up a part of a text, or a part of a document. 
+            ==> (span class=""> Some Text (/span> 
+        </p>     
+        <br>
+        <br>
+        <strong>How to insert a picture into a background image of a web page?</strong>
+        <br>
+        <p>-->The most common & simple way to add background image is using the background image attribute inside the (body> tag. 
+            The background attribute which we specified in the (body> tag is not supported in HTML5. Using CSS properties, we can 
+            also add background image in a webpage.</p>
+            <br> 
+            <br>
+        <strong>How are active links different from normal links? </strong>
+        <br>
+        <p>-->By default, a link will appear like this (in all browsers): An unvisited link is underlined and blue.
+            A visited link is underlined and purple. An active link is underlined and red.</p>
+            <br>
+            <br>
+        <strong>What are the different tags to separate sections of text? </strong>
+        <br>
+        <p><ul>
+        --> <li> (br> tag – It is used to separate the line of text. It breaks the current line and shifts the flow of the 
+        text to a new line.</li>
+           <li> (p> tag–This tag is used to write a paragraph of text. </li>
+           <li> (blockquote> tag–This tag is used to define large quoted sections. </li>
+        </ul></p>        
+        <br> 
+        <br>
+        <strong>What is SVG?</strong>
+        <br>
+        <p>--> SVG stands for Scalable Vector Graphics ,The SVG file format is a popular tool for displaying two-dimensional 
+            graphics, charts, and illustrations on websites.</p>
+            <br>
+            <br>
+         <strong>What is difference between HTML and XHTML? </strong>
+         <br>
+         <p>--> HTML is the standard markup language for creating web pages, while XHTML is a stricter and more standardized version
+            of HTML. Both HTML and XHTML include a wide range of features, such as support for multimedia, styling, and scripting.</p>   
+            <br>
+            <br>
+        <strong>What are logical and physical tags in HTML?</strong>
+         <br>
+         <p>--> The example of the logical tag is (strong> (/strong> tag. When we enclose the text in the strong tag, it tells 
+            the browser that enclosed text is more important than other texts. Physical tags : Physical tags are used to tell
+             the browser how to display the text enclosed in the physical tag.</p>
+             <br>
+             <br>
+</body>
+</html>
