@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODULE.2 | HTML</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .box{
+            height: 100px;
+            width: 400px;
+            border: 1px solid black;
+            background-color: aquamarine;
+        }
+
+        .box1{
+            height: 100px;
+            width: 400px;
+            border: 1px solid black;
+            background-color: aquamarine;
+            text-align: center;
+        }
+
+        .box2{
+            height: 370px;
+            width: 1200px;
+            border: 1px solid black;
+            background-color: aquamarine;
+        }
+
+        .box3{
+            height: 370px;
+            width: 1200px;
+            border: 1px solid black;
+            background-color: aquamarine;
+        }
+        
+        .box4{
+            height: 100px;
+            width: 400px;
+            border: 1px solid black;
+            background-color: aquamarine;
+        }
+
+        .box5{
+            height: 200px;
+            width: 400px;
+            border: 1px solid black;
+            background-color: aquamarine;
+        }
+
+        p1 {
+           font-weight: bold;
+        }
+
+        a1:link{
+           color: forestgreen;
+           text-decoration-color: hotpink;
+        }
+        .box6{
+            height: 150px;
+            width: 250px;
+            border: 1px solid black;
+            background-color: aquamarine;
+        }
+       .a1 a:hover{
+             
+             background-color:#C38DE9;
+             color: #E27D60;
+             font-size: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    
+<br>
+1>  <p> Define the terms: Website, Webpage, Web browser, Web server, HTML, CSS..</p>
+<br>
+<br>
+=> <b>Website</b>
+<br>
+===> <p>A website is a collection of publicly accessible, interlinked Web pages that share a single domain name. Websites can be created and maintained by an individual, group, business or organization to serve a variety of purposes. Together, all publicly accessible websites constitute the World Wide Web.</p>
+<br>
+<br>
+=> <b>Webpage</b>
+<br>
+===> <p>A web page (or webpae) is a hypertext document on the World Wide Web. Web pages are delivered by a web server to the user and displayed in a web browser. A website consists of many web pages linked together under a common domain name. The name "web page" is a metaphor of paper pages bound together into a book.</p>
+<br>
+<br>
+=> <b>Web browser</b>
+<br>
+===> <p>A software application used to access information on the World Wide Web is called a Web Browser. When a user requests some information, the web browser fetches the data from a web server and then displays the webpage on the user's screen.</p>
+<br>
+<br>
+=> <b>Web server</b>
+<br>
+===><p> A web server is a computer that runs websites. It's a computer program that distributes web pages as they are requisitioned. The basic objective of the web server is to store, process and deliver web pages to the users. This intercommunication is done using Hypertext Transfer Protocol (HTTP).</p>
+<br>
+<br>
+=> <b>HTML</b>
+<br>
+===><p>HTML stands for HyperText Markup Language. This language is used primarily to create pages to be displayed by a WWW browser. HTML is made up of a series of commands that define how the text will be displayed on screen. Similar to a word processor, HTML has code and commands that you use to make text bold or italicized. You can center text, create tables, and insert pictures and graphs. The most powerful feature of HTML is the ability to create hypertext links.</p>
+<br>
+<br>
+=> <b>CSS</b>
+<br>
+===> <p>CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML). This language contains coding elements and is composed of these “cascading style sheets” which are equally called CSS files (.css).</p>
+<br>
+<br>
+
+<hr>
+
+<br>
+<br>
+2> Create a webpage to show “This is my first HTML page”
+<br>
+<br>
+<div class="box">
+    This is my first HTML page
+</div>
+
+<br>
+<br>
+
+<hr>
+
+<br>
+<br>
+3> Display top 10 IT companies list in html webpage.
+<br>
+<br>
+<ol start="1">
+    <li> Hyperlink InfoSystem</li>
+    <li> Accenture </li>
+    <li>Capgemini India Pvt ltd</li>
+    <li>Zensar Technologies</li>
+    <li>Mphasis</li>
+    <li>WillowTree Apps</li>
+    <li>Tata Consultancy Services</li>
+    <li>Infosys</li>
+    <li>Tech Mahindra</li>
+    <li>HData Systems</li>
+</ol>
+<br>
+<br>
+
+<hr>
+
+<br>
+<br>
+4> Create a dropdown list
+<br>
+<br>
+===> 
+<div class="box1">
+    <form action="">
+        <label for="name"> choos a name</label>
+        <select name="name" id="name">
+            <option value="name1">name1</option>
+            <option value="name2">name2</option>
+            <option value="name3">name3</option>
+            <option value="name4">name4</option>
+        </select>
+    </form>
+</div>
+<br>
+<br>
+
+<hr>
+
+<br>
+<br>
+5> Create a Table Of college Management system using row span & col span
+<br>
+<br>
+<div class="box2">
+<h2 align="center">TIME TABLE</h2>
+    <table border="2" cellspacing="1" cellpadding="6" align="center">
+        <tr align="center">
+            <th>Day/period</th>
+            <th>I 9:30-10:20</th>
+            <th>II 10:20-11:10</th>
+            <th>II 11:10-12:00</th>
+            <th>III 12:00-12:40</th>
+            <th>IV 12:40-1:30</th>
+            <th>V 1:30-2:20</th>
+            <th>VI 2:20-3:10</th>
+            <th>VII 3:10-4:00</th>
+        </tr>
+        <tr align="center">
+            <th>Monday</th>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>che</td>
+            <th rowspan="6">LUNCH</th>
+            <td colspan="3" align="center">LAB</td>
+            <td>Phy</td>
+        </tr>
+        <tr align="center">
+            <th>Tuesday</th>
+            <td colspan="3" align="center">LAB</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td>SPORTS</td>
+        </tr>
+        <tr align="center">
+            <th>Wednesday</th>
+            <td>Mat</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3" align="center">LIBRARY</td>
+        </tr>
+        <tr align="center">
+            <th>Thursday</th>
+            <td>Phy</td>
+            <td>Eng</td>
+            <Td>Che</Td>
+            <td colspan="3" align="center">LAB</td>
+            <td>Mat</td>
+        </tr>
+        <tr align="center">
+            <th>Friday</th>
+            <td colspan="3" align="center">LAB</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td>Eng</td>
+            <td>Phy</td>
+        </tr>
+        <tr align="center">
+            <th>Saturday</th>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td colspan="3" align="center">SEMINAR</td>
+            <td>SPORTS</td>
+        </tr>
+    </table>
+</div>
+<br>
+<br>
+
+<hr>
+
+<br>
+<br>
+6>  Create Registration form using HTML, CSS
+<br>
+<br>
+<div class="box3">
+ <h3 align="center" style="color: crimson;"> <label for="">make html form</label> </h3>
+    <table border="1" cellspecing="0" cellpadding="1" align="center">
+       <tr>
+        <td>
+        <label for=""> Surname</label><br>
+        <input type="text" placeholder="please enter your Surname">
+    </td>
+    <td>
+        <label for=""> Name </label> <br>
+        <input type="text" placeholder="please enter your name">
+    </td>
+       </tr>
+       <tr>
+        <td>
+            <label for="">Email</label> <br>
+            <input type="email" placeholder="please enter your email">
+        </td>
+        <td>
+            <label for="">Contact Us</label> <br>
+            <input type="number" placeholder="please enter contact no.">
+        </td>
+       </tr>
+       <tr>
+        <td>
+            <label for=""><b> Select Your Gender</b></label><br>
+            <input type="radio" name="gender" id="male">
+            <label for="m">male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="f">female</label>
+        </td>
+        <td>
+            <label for=""><b>Select Your Hobbies</b></label><br>
+            <input type="checkbox" name="h" id="music">
+            <label for="m">music</label>
+            <input type="checkbox" name="h" id="cricket">
+            <label for="c"> cricket</label>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="3">
+            <textarea name="a" id="" cols="49" rows="5" placeholder="Please enter your address" ></textarea>
+        </td>
+       </tr>
+       <tr>
+        <td>
+        <select name="class" id="">
+            <option value="">class 1</option>
+            <option value="">class 2</option>
+            <option value="">class 3</option>
+        </select>
+        </td>
+        <td align="right">
+            <input type="submit">
+            <input type="reset">
+        </td>
+       </tr>
+
+    </table> 
+ </div>
+
+ <br>
+ <br>
+
+ <hr>
+
+ <br>
+ <br>
+ 7> In how many ways can a CSS be integrated as a web page? 
+ <br>
+ <br>
+ ===>  CSS can be added to HTML documents in 3 ways: Inline - by using the style attribute inside HTML elements. Internal - by using a &lt;style> element in the &lt;head> section.
+   <ol start="1">
+    <li>Inline - by using the style attribute inside HTML elements</li>
+    <li>Internal - by using a &lt;style> element in the &lt;head> section</li>
+    <li>External - by using a &lt;link> element to link to an external CSS file</li>
+   </ol>
+<br>
+<br>
+
+<hr>
+
+<br>
+<br>
+8> Create simple three pages using External CSS, Internal CSS, and Inline CSS.
+<br>
+<br>
+1. External - by using a &lt;link> element to link to an external CSS file
+
+Syntax:
+<br>
+<div class="box4">
+    &lt;head><br>
+    &nbsp;&nbsp; &lt;link rel="stylesheet" <br>
+    &nbsp; &nbsp; &nbsp; type="text/css" href="style.css"><br>
+  &lt;/head>
+</div>
+<br>
+<br>
+2. Internal - by using a &lt;style> element in the &lt;head> section
+Syntax:
+<br>
+<div class="box4">
+    &lt;style> <br>
+    &nbsp; &nbsp; // CSS Properties <br>
+    &lt;/style> <br>
+</div>
+ <br>
+ <br>
+ 3. Inline - by using the style attribute inside HTML elements
+ Syntax:
+<br>
+<div class="box4">
+    &lt;p style="css_styles"> <br>
+    &nbsp; &nbsp;// Content <br>
+    &lt;/p> <br>
+</div>
+<br>
+<br>
+  
+<hr>
+
+<br>
+<br>
+9> Create link-pseudo classes using external css, to format links on the pages. 
+<div class="box5">
+  <p1>
+    Pages that you might have visited:
+  </p1>
+ <ul>
+    <li>
+        <a href="https://google.com">Google</a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/">YouTube</a>
+    </li>
+</ul>
+<p1>
+    Pages unlikely to be in your history:
+</p1>
+<ul>
+    <li>
+        <a href="https://google.com">Google</a>
+    </li>
+    <li>
+        <a href="https://example.com/missing">Random Example page</a>
+    </li>
+</ul>
+</div>
+<br>
+<br>
+
+<hr>
+
+<br>
+<br>
+10>  <p>Create a dynamic pseudo class using HTML, CSS</p>
+===>
+
+<div class="box6">
+    <p1> go to the google and youtube</p1>
+    <ul>
+        <li>
+            <div class="a1">
+       <a href="https://www.google.com"><i class="fa-brands fa-google">&nbsp;&nbsp;Google&nbsp;</i></a>
+            </div>    
+       </li>
+        <br>
+        <li>
+            <div class="a1">
+            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube">&nbsp;&nbsp;Youtube&nbsp;</i></a>
+        </div>
+        </li>
+    </ul>
+
+</div>
+
+</body>
+</html>
