@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment | Test | 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Student Registaration Form</h2>
+   
+<div class="main">
+    <div class="mn">
+        <div class="mn-lab">
+            <label for="">first name</label>
+        </div>
+        <div class="mn-inp">
+            <input type="text" placeholder="Enter Your first name">
+        </div>
+    </div>
+    <div class="mn">
+        <div class="mn-lab">
+            <label for="name">Last Name:</label>
+        </div>
+        <div class="mn-inp">
+            <input type="text" placeholder="Enter Your last name">
+        </div>
+    </div>
+    <div class="mn">
+        <div class="mn-lab">
+            <label for="Email">Email:</label>
+        </div>
+        <div class="mn-inp">
+             <input type="email" placeholder="it should contain @..">
+        </div>
+    </div>
+    <div class="mn">
+        <div class="mn-lab">
+            <label for="number">Mobile:</label>
+        </div>
+        <div class="mn-inp">
+            <input type="number" placeholder="only 10 digits are allowed" max="10" min="10">
+        </div>
+    </div>
+    <div class="mn">
+        <div class="mn-lab">
+            <label>Gender:</label>
+        </div>
+        <div class="mn-inp">
+            <input type="radio" name="male" id="m">
+            <label for="m">Male</label>
+            <input type="radio" name="femail" id="f">
+            <label for="f">female</label>
+            
+        </div>
+    </div>
+    <div class="mn">
+        <div class="mn-lab">
+            <label for="birthdate">Date Of Birth:</label>
+        </div>
+        <div class="mn-inp">
+            <input type="date" id="birthdate">
+        </div>
+    </div>
+    <div class="mn">
+        <div class="mn-lab">
+            <label for="addr">Address:</label>
+        </div>
+        <div class="mn-inp">
+            <TExtarea id="aadr" cols="113" rows="5" ></TExtarea>
+        </div>
+    </div>
+    <div class="mn">
+        <div class="mn-lab">
+            <label for="city">City:</label>
+        </div>
+        <div class="mn-inp">
+            <input type="text" id="city">
+        </div>
+    </div>
+    <div class="mn">
+        <div class="mn-lab">
+            <label for="pin">Area Pin:</label>
+        </div>
+        <div class="mn-inp">
+            <input type="number" max="6" id="pin">
+        </div>
+    </div>
+    <div class="mn">
+        <div class="mn-lab">
+            <label for="state">State:</label>
+        </div>
+        <div class="mn-inp">
+            <input type="text" id="state"> 
+            
+        </div>
+    </div>
+    <div class="mn">
+        <div class="mn-lab">
+            <label for="q">Qualification:</label>
+        </div>
+        <div class="mn-inp">
+            <select name="Qualification" id="q">
+                <option value="select"><label for="a">Select Qualification:</label></option>
+                <option value="b">BCA</option>
+                <option value="b">MCA</option>
+                <option value="b">B.tech</option>
+                <option value="b">M.tech</option>
+            </select>
+        </div>
+    </div>
+    <div class="mn">
+        <div class="mn-lab">
+            <label for="spec">Specialization:</label>
+        </div>
+        <div class="mn-inp" id="check">
+            <input type="checkbox" id="c"> 
+            <input type="checkbox" id="x">
+            <input type="checkbox"  id="y">
+            <input type="checkbox" id="z">
+        </div>
+        <div class="mn-inp" id="checkbox">
+            <label for="c">Computer Science</label>
+            <label for="x">Information Technology</label>
+            <label for="y">Computer Architecture</label>
+            <label for="z">Tele Communication</label>
+            
+        </div>
+    </div>
+    <div class="mn">
+        <div class="mn-lab">
+            <label for="p">Password:</label>     
+        </div>
+        <div class="mn-inp">
+            <input type="password" id="p">
+        </div>
+    </div>
+    
+    <button>Registard</button>
+
+</div>
+    
+</body>
+</html>
